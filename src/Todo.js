@@ -1,5 +1,5 @@
 
-import './App.css';
+import './Todo.css';
 
 const Todo = ()=>{
  return (
