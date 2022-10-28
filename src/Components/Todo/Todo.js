@@ -1,11 +1,12 @@
-import React ,{useState}from "react";
+import React, { useState } from "react";
 import TodoHeader from "../TodoHeader/TodoHeader";
 import TodoAction from "../Todo-actions/TodoAction";
 import TodoRender from "../TodoRender/TodoRender";
-import './Todo.css'
+import "./Todo.css";
 
 const Todo = () => {
-  const [tab, setTab]= useState()
+  const [tab, setTab] = useState(0);
+  const [isOpen, setIsOpen] = useState(false);
   return (
     <div className="todo-wrapper">
       <TodoHeader />
