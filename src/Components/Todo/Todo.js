@@ -8,7 +8,8 @@ const Todo = () => {
   const [tab, setTab] = useState(0);
   const [isOpen, setIsOpen] = useState(false);
   const [isOpenDisplayTodo, setIsOpenDisplayTodo] = useState(false);
-  const [todo, setTodo] = useState()
+  const [todo, setTodo] = useState([]);
+  const [formData, setFormData] = useState([]);
   return (
     <div className="todo-wrapper">
       <TodoHeader />
