@@ -1,8 +1,8 @@
 import React from "react";
-import TodoHeader from "./Components/TodoHeader/TodoHeader";
+import TodoHeader from "../TodoHeader/TodoHeader";
 import "./Todo.css";
-import TodoAction from "./Components/Todo-actions/TodoAction";
-import TodoRender from "./Components/TodoRender/TodoRender";
+import TodoAction from "../Todo-actions/TodoAction";
+import TodoRender from "../TodoRender/TodoRender";
 
 const Todo = () => {
   return (
