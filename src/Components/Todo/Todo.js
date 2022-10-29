@@ -20,7 +20,7 @@ const Todo = () => {
   const [todo, setTodo] = useState([]);
   const [formData, setFormData] = useState(initialFormData);
 
-  const handleOpenDialog = setIsOpen((prevState)=>(!prevState))
+  const handleOpenDialog = setIsOpen((prevState)=>!prevState)
 
   return (
     <div className="todo-wrapper">
